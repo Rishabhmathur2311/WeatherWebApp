@@ -1,0 +1,63 @@
+*{
+    font-family: ubuntu;
+    text-align: center;
+    color: aliceblue;
+}
+.FirstBox{
+    background-color: azure;
+    margin: 0;
+}
+
+.secondBox{
+    position: relative;
+    left: 4.1em;
+    top: 13em;
+    border-radius: 1%;
+    /* margin-top: 15%;
+    margin-left: 25%;
+    margin-right: 25%; */
+    padding: 2%;
+    justify-content: center;
+    height: 65%;
+    width: 65%;
+    background-color: black;
+}
+
+input{
+    margin: 3%;
+    position: relative;
+    font-size: 80%;
+    text-align: left;
+    justify-content: left;
+    border: none;
+    border-bottom: 2px solid aliceblue;
+    background-color: black;
+    color: aliceblue;
+    
+}
+
+button{
+    background-color: black;
+    border: none;
+    border-bottom: 2px solid aliceblue;
+    font-size: 100%;
+
+}
+
+.clear{
+    color: yellow;
+    height: 20%;
+}
+
+button:hover{
+    font-weight: bold;
+
+}
+.street{
+    animation: move 4s;
+}
+@keyframes move {
+    0%{
+    transform: translateX(0);
+    }
+}
